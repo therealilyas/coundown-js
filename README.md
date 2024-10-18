@@ -7,5 +7,5 @@ To run this project locally:
 Clone the repository:
    ```bash
    git clone https://github.com/therealilyas/countdown-js.git
-
+  ```
 ![Screenshot of the project](./assets/screenshot.png)
