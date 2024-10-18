@@ -6,4 +6,4 @@ To run this project locally:
 <br>
 Clone the repository:
    ```bash
-   git clone https://github.com/therealilyas/moonlit-llama.git
+   git clone https://github.com/therealilyas/countdown-js.git
