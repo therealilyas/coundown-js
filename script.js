@@ -1,7 +1,8 @@
 let timerDisplay = document.querySelector(".display__time-left");
 let endTime = document.querySelector(".display__end-time");
 let buttons = document.querySelectorAll(".timer__button");
-
+let customForm = document.querySelector("#custom");
+let customInput = document.querySelector("#custom input");
 let countdown;
 
 
@@ -32,6 +33,8 @@ function timer(minutes, seconds) {
 
 
 
+
+
 buttons.forEach((button)=>{
     button.addEventListener('click',(e)=>{
         e.preventDefault
@@ -47,3 +50,13 @@ buttons.forEach((button)=>{
     })
 
 })
+customForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    let inputValue = customInput.value; 
+
+    if (inputValue && inputValue > 0) {
+        let minutes = parseInt(inputValue);
+        timer(minutes, 0); 
+        customInput.value = ''; 
+    }
+});
