@@ -1,3 +1,7 @@
-#COUNTDOWN IN VANILLA JS
+# Countdown App in Vanilla JS
 
-(https://moonlit-llama-2483f1.netlify.app/)
+To run this project locally:
+
+Clone the repository:
+   ```bash
+   git clone https://github.com/therealilyas/moonlit-llama.git
